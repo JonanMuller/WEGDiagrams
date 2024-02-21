@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T20:39:28.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="v7GNgIY0cZJczg7QznTH" version="23.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-21T20:43:27.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="e29oxYSK2feb9btOMb_x" version="23.1.5" type="github" pages="7">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1843" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1238,8 +1238,9 @@
         <mxCell id="iYzLhB0qEPxJf2x7pPCy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="uJ4McG1gYGhLAZSdG6iw-95" target="uJ4McG1gYGhLAZSdG6iw-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="80" y="343" />
-              <mxPoint x="80" y="55" />
+              <mxPoint x="140" y="110" />
+              <mxPoint x="70" y="110" />
+              <mxPoint x="70" y="55" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1250,7 +1251,7 @@
         </mxCell>
         <mxCell id="uJ4McG1gYGhLAZSdG6iw-95" value="Ciclo Automático Grampeamento" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="100" width="1180" height="970" as="geometry">
-            <mxRectangle x="80" y="50" width="230" height="30" as="alternateBounds" />
+            <mxRectangle x="140" y="100" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uJ4McG1gYGhLAZSdG6iw-4" value="3&lt;br&gt;Aguardando posicionar&lt;br&gt;mesa" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="uJ4McG1gYGhLAZSdG6iw-95">
