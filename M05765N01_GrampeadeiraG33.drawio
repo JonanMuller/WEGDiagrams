@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T17:48:06.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="XKTDmE_U3VhdrUM82El1" version="23.1.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-01T17:53:34.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4tdnvHNMBgV2FLXr6bY2" version="23.1.7" type="github" pages="7">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1290" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1655,7 +1655,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oaP8fSJOOE39_sWfcLyn" name="MesaV3">
-    <mxGraphModel dx="2345" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3407" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1674,7 +1674,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0x7zI7fZM2jy_gg8qVNA-92" value="Ciclo Automático Mesa" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="99.86" y="110" width="1180" height="970" as="geometry">
+          <mxGeometry x="99.86" y="110" width="1180" height="920" as="geometry">
             <mxRectangle x="115" y="1250" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
