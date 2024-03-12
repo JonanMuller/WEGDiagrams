@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T13:21:11.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TeUTzRupg47Gt76OmaGJ" version="24.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-12T13:24:33.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="WAaLxAZ6-4h1e3iHpNGU" version="24.0.1" type="github" pages="8">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1290" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1990,20 +1990,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CXbRj9zyZ983vYRtzm-L" name="PosBas">
-    <mxGraphModel dx="2093" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_BQeQWQ_mlzuI1BdjxCd-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_BQeQWQ_mlzuI1BdjxCd-3" target="_BQeQWQ_mlzuI1BdjxCd-152">
+        <mxCell id="_BQeQWQ_mlzuI1BdjxCd-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_BQeQWQ_mlzuI1BdjxCd-3" target="_BQeQWQ_mlzuI1BdjxCd-152">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="415" y="692" />
+              <mxPoint x="213" y="100" />
+              <mxPoint x="213" y="75" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_BQeQWQ_mlzuI1BdjxCd-159" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sem permissão&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;para ciclo&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_BQeQWQ_mlzuI1BdjxCd-157">
           <mxGeometry x="-0.0124" y="2" relative="1" as="geometry">
-            <mxPoint x="28" y="-1" as="offset" />
+            <mxPoint x="-8" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_BQeQWQ_mlzuI1BdjxCd-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ciclo de Busca de Posição Básica&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2173,7 +2174,7 @@
           <mxGeometry x="57" y="40" as="geometry" />
         </mxCell>
         <mxCell id="_BQeQWQ_mlzuI1BdjxCd-152" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="610" y="677" width="30" height="30" as="geometry" />
+          <mxGeometry x="30" y="70" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
