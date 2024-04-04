@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T13:47:44.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="AMgGKkHrj1nQlcBJwiYP" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T16:19:59.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="8ykSZUjkt6VhnfPH29Rf" version="24.2.2" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1290" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -114,6 +114,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2a3bc250acf0617d-7" source="SFfb35-ShU-kt1pV6KI9-35" target="jEQ9bqi1bXGEA216Gn8D-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="460" />
+              <mxPoint x="750" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-21" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEQ9bqi1bXGEA216Gn8D-20">
+          <mxGeometry x="-0.8137" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SFfb35-ShU-kt1pV6KI9-35" value="Pacote&#xa;montado?" style="rhombus;" parent="2a3bc250acf0617d-7" vertex="1">
           <mxGeometry x="575" y="195" width="90" height="90" as="geometry" />
         </mxCell>
@@ -199,12 +212,17 @@
         <mxCell id="jEQ9bqi1bXGEA216Gn8D-5" value="+ Seta posição para o eixo do giro;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jEQ9bqi1bXGEA216Gn8D-4">
           <mxGeometry y="20" width="130" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="jEQ9bqi1bXGEA216Gn8D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2a3bc250acf0617d-7" source="jEQ9bqi1bXGEA216Gn8D-6" target="jEQ9bqi1bXGEA216Gn8D-11">
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2a3bc250acf0617d-7" source="jEQ9bqi1bXGEA216Gn8D-6" target="SFfb35-ShU-kt1pV6KI9-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="860" y="380" />
-              <mxPoint x="860" y="515" />
+              <mxPoint x="890" y="380" />
+              <mxPoint x="890" y="95" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-14" value="Posicionou" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jEQ9bqi1bXGEA216Gn8D-13">
+          <mxGeometry x="-0.8597" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jEQ9bqi1bXGEA216Gn8D-6" value="Girando" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="2a3bc250acf0617d-7">
@@ -212,14 +230,36 @@
         </mxCell>
         <mxCell id="jEQ9bqi1bXGEA216Gn8D-9" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="2a3bc250acf0617d-7">
           <mxGeometry x="700" y="410" width="100" height="30" as="geometry">
-            <mxRectangle x="700" y="410" width="160" height="74" as="alternateBounds" />
+            <mxRectangle x="700" y="410" width="150" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jEQ9bqi1bXGEA216Gn8D-10" value="+ Desce elevador para a posição de trabalho (giro);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jEQ9bqi1bXGEA216Gn8D-9">
-          <mxGeometry y="20" width="160" height="54" as="geometry" />
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-10" value="+ Desce elevador para a posição de trabalho (giro);&lt;div&gt;+ Gira se o pacote não estiver finalizado;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jEQ9bqi1bXGEA216Gn8D-9">
+          <mxGeometry y="20" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="jEQ9bqi1bXGEA216Gn8D-11" value="Pacote&#xa;montado?" style="rhombus;" vertex="1" parent="2a3bc250acf0617d-7">
-          <mxGeometry x="715" y="470" width="90" height="90" as="geometry" />
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2a3bc250acf0617d-7" source="jEQ9bqi1bXGEA216Gn8D-15" target="jEQ9bqi1bXGEA216Gn8D-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-15" value="Descarregando" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="2a3bc250acf0617d-7">
+          <mxGeometry x="690" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-16" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="2a3bc250acf0617d-7">
+          <mxGeometry x="690" y="550" width="100" height="30" as="geometry">
+            <mxRectangle x="690" y="550" width="150" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-17" value="+ Gira para a posição inicial;&lt;br&gt;&lt;div&gt;+ Desce pacote para a esteira;&lt;/div&gt;&lt;div&gt;+ Ajusta o esixo de separação&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jEQ9bqi1bXGEA216Gn8D-16">
+          <mxGeometry y="20" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-18" value="Aguardando saída&amp;nbsp;&lt;div&gt;da separação&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="2a3bc250acf0617d-7">
+          <mxGeometry x="490" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-23" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="2a3bc250acf0617d-7">
+          <mxGeometry x="490" y="550" width="150" height="120" as="geometry">
+            <mxRectangle x="490" y="550" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEQ9bqi1bXGEA216Gn8D-24" value="+ Atualiza o ajuste da receita;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jEQ9bqi1bXGEA216Gn8D-23">
+          <mxGeometry y="20" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="382b91b5511bd0f7-1" target="2a3bc250acf0617d-7" edge="1">
           <mxGeometry relative="1" as="geometry">
